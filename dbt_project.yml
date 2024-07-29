@@ -7,9 +7,9 @@ vars:
   facebook_posts_report: "{{ ref('facebook_pages__posts_report') }}"
   linkedin_posts_report: "{{ ref('linkedin_pages__posts') }}"
   instagram_posts_report: "{{ ref('instagram_business__posts') }}"
-  social_media_rollup__twitter_enabled: true
+  social_media_rollup__twitter_enabled: false
   social_media_rollup__facebook_enabled: true
-  social_media_rollup__linkedin_enabled: true
+  social_media_rollup__linkedin_enabled: false
   social_media_rollup__instagram_enabled: true
 models:
   social_media_reporting:
