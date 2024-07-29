@@ -1,9 +1,9 @@
 packages:
-- git: "https://github.com/mbm-pbc-reporting/dbt_instagram_business.git"
-  revision: "main"
-- git: "https://github.com/mbm-pbc-reporting/dbt_instagram_business.git" 
-  revision: "main"
-- package: fivetran/twitter_organic
-  version: [">=0.2.0", "<0.3.0"]
-- package: fivetran/linkedin_pages
-  version: [">=0.3.0", "<0.4.0"]
+  - git: "https://github.com/mbm-pbc-reporting/dbt_facebook_pages.git"
+    revision: "main"
+  - git: "https://github.com/mbm-pbc-reporting/dbt_instagram_business.git" 
+    revision: "main"
+  - package: fivetran/twitter_organic
+    version: [">=0.2.0", "<0.3.0"]
+  - package: fivetran/linkedin_pages
+    version: [">=0.3.0", "<0.4.0"]
